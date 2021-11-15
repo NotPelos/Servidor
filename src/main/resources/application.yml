@@ -2,7 +2,9 @@ server:
   port: 8888
  
 spring:
-  application:    name: myvalue 
+  application:    name: myvalue
+  profiles:
+    active: dev,tester 
   cloud:
     config:
       server:
